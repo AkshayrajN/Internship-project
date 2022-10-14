@@ -1,0 +1,125 @@
+
+body{
+    width: auto;
+    background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,0.6615021008403361) 1%, rgba(148,187,233,0.6222864145658263) 100%);
+}
+.upper{
+    padding-bottom:-20px;
+}
+.upper h1{
+    background-color: aliceblue;
+}
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e3e6f3;
+    padding: 2px 31px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.08);
+    position: sticky;
+    top: 0;
+    left: 0;
+  }
+  
+  /* logo */
+  #navbar img {
+    height: 48px;
+    width: 100%;
+    padding-left: 15px;
+  }
+  
+  /* links */
+  
+  .navlinks ul {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .navlinks ul li {
+    list-style-type: none;
+    position: relative;
+    text-align: center;
+  }
+  .navlinks a {
+    text-decoration: none;
+    display: block;
+    color: #1a1a1a;
+    font-weight: 600;
+  }
+  
+  .navlinks ul li::after {
+    content: "";
+    width: 0%;
+    height: 2px;
+  
+    background-color: #088178;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+  }
+  .navlinks ul li:hover::after {
+    width: 100%;
+  }
+  .navlinks ul li a:hover {
+    color: #088178;
+    transition: 0.5s;
+    /* color: white; */
+    transform: scale(1.1);
+  }
+  .icon {
+    height: 20px;
+  }
+.dept h2{
+    font-size: 25px;
+    text-align: center;
+    position: relative;
+    bottom: 20px;
+    
+}
+.image{
+    display:flex    ;
+    justify-content: center;
+    position: relative;
+    bottom: 30px;
+   
+}
+footer {
+    position: relative;
+    /* left: 9ch; */
+    top: 255px;
+    width: auto;
+    background-color: #C4C4BC;
+    color: black;
+    text-align: center;
+    word-spacing: 20px;
+  }
+  
+  	.hoverTable{
+		width:auto; 
+		border-collapse:collapse; 
+        position:absolute;
+        left: 32%;
+        font-family: 'Nanum Gothic', sans-serif;
+        font-weight: 700;
+	}
+    .hoverTable th{ 
+		padding:12px; border:#4e95f4 1px solid;
+    
+	}
+	.hoverTable td{ 
+		padding:7px; border:#4e95f4 1px solid;
+	}
+	/* Define the default color for all the table rows */
+	.hoverTable tr{
+		background: #b8d1f3;
+	}
+	/* Define the hover highlight color for the table row */
+    .hoverTable tr:hover {
+          background-color: #ffff99;
+    }
+
+
+
